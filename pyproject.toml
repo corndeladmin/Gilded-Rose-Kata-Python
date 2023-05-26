@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "exercise-template"
+name = "gilded_rose"
 version = "0.1.0"
 description = ""
 authors = []
@@ -10,6 +10,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2"
 
 [tool.poetry.scripts]
 start = "src:main"
